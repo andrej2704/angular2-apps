@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './navbar.component.html'
 })
 export class NavbarComponent {
-  branding = 'My Website'
+  branding = 'My Website';
+  isCollapsed = true;
 }
