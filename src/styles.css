@@ -2,3 +2,7 @@
 .navbar {
     margin: 0;
 }
+
+ngb-carousel,.carousel-inner{
+  max-width: 530px;
+}

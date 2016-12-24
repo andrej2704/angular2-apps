@@ -10,12 +10,12 @@ import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { AboutComponent } from './components/pages/about.component';
 import { HomeComponent } from './components/pages/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
-
+import { PhotoComponent } from './components/photo/photo.component';
 
 import {routing} from './app.routing';
 
 import { NgbdAlertBasic } from './app.alert-basic';
-import { NgbdCarouselBasic } from './app.carousel';
+import { NgbdCarouselBasic } from './components/carousel/app.carousel';
 
 @NgModule({
   declarations: [
@@ -25,6 +25,7 @@ import { NgbdCarouselBasic } from './app.carousel';
     AboutComponent,
     HomeComponent,
     ProfileComponent,
+    PhotoComponent,
     NgbdAlertBasic,
     NgbdCarouselBasic
   ],

@@ -9,11 +9,12 @@ export class ProfileComponent {
     user: any;
     repos: any[];
     username: string;
+    photos: any[];
 
     constructor(private githubService: GithubService){
         this.user = false;
     }
-    
+
     searchUser(){
         this.githubService.updateUser(this.username)
         this.githubService.getUser().subscribe(user => {

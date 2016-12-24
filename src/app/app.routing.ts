@@ -4,6 +4,7 @@ import {Routes, RouterModule} from '@angular/router';
 import {HomeComponent} from './components/pages/home.component';
 import {AboutComponent} from './components/pages/about.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { PhotoComponent } from './components/photo/photo.component';
 
 const appRoutes: Routes = [
     {
@@ -17,6 +18,10 @@ const appRoutes: Routes = [
     {
         path: 'github',
         component: ProfileComponent
+    },
+    {
+        path: 'photo',
+        component: PhotoComponent
     }
 ];
 

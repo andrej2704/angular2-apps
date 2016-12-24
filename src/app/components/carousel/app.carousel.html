@@ -1,0 +1,10 @@
+<ngb-carousel>
+    <template ngbSlide *ngFor="let photo of photos">
+      <img class="img-fluid" src="{{photo.images[0].url}}">
+      <div class="carousel-caption">
+        <p>{{photo.description}}</p>
+      </div>
+    </template>
+</ngb-carousel>
+
+
