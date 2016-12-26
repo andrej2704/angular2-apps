@@ -6,3 +6,7 @@
 ngb-carousel,.carousel-inner{
   max-width: 530px;
 }
+
+.full-width {
+  width: 100%;
+}
