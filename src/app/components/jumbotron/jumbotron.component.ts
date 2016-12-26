@@ -12,8 +12,8 @@ export class JumbotronComponent {
     private jbtBtnUrl: string;
 
     constructor(){
-        this.jbtHeading = 'Hello World';
-        this.jbtText = 'This is a simple hero unit, a simple jumbotron-string';
+        this.jbtHeading = 'Angular2 Apps';
+        this.jbtText = 'Learning Angular2 by doing';
         this.jbtBtnText = 'Read More';
         this.jbtBtnUrl = '/about';
     }

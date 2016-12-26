@@ -5,6 +5,10 @@ import {HomeComponent} from './components/pages/home.component';
 import {AboutComponent} from './components/pages/about.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { PhotoComponent } from './components/photo/photo.component';
+import { SearchComponent } from './components/search/search.component';
+import { ArtistComponent } from './components/artist/artist.component';
+import { AlbumComponent } from './components/album/album.component';
+
 
 const appRoutes: Routes = [
     {
@@ -22,6 +26,18 @@ const appRoutes: Routes = [
     {
         path: 'photo',
         component: PhotoComponent
+    },
+    {
+        path: 'search',
+        component: SearchComponent
+    },
+    {
+        path: 'artist/:id',
+        component: ArtistComponent
+    },
+    {
+        path: 'album/:id',
+        component: AlbumComponent
     }
 ];
 
